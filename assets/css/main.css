@@ -1933,6 +1933,7 @@ input, select, textarea {
 			width: 45em;
 			max-width: calc(100% - 4em);
 			margin: 0 auto;
+			z-index: 10;
 		}
 
 			.main > .content > :last-child {
@@ -2249,6 +2250,7 @@ input, select, textarea {
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
 		background-repeat: no-repeat;
+		z-index: 0;
 	}
 
 /* One */
